@@ -7,6 +7,9 @@ import ShopCategory from './Pages/ShopCategory';
 import Product from './Pages/Product';
 import LoginSignup from './Pages/LoginSignup';
 import Cart from './Pages/Cart';
+import Shoo from './Pages/ShooesPages/Shoo';
+import CustomSuit from './Components/CustomPage/CustomSuit';
+
 
 function App() {
   return (
@@ -18,6 +21,7 @@ function App() {
         <Route path='/mens' element={<ShopCategory category="men"/>}/>
         <Route path='/women' element={<ShopCategory category="women"/>}/>
         <Route path='/kids' element={<ShopCategory category="kids"/>}/>
+        <Route path='/custom' element={<CustomSuit category="custom"/>}/>
         <Route path="/product" element={<Product/>}>
           <Route path=':productid' element={<Product/>}/>
         </Route>
