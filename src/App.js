@@ -7,9 +7,13 @@ import ShopCategory from './Pages/ShopCategory';
 import Product from './Pages/Product';
 import LoginSignup from './Pages/LoginSignup';
 import Cart from './Pages/Cart';
+<<<<<<< HEAD
 import Shoo from './Pages/ShooesPages/Shoo';
 import CustomSuit from './Components/CustomPage/CustomSuit';
 
+=======
+import Footer from './Components/Footer/Footer';
+>>>>>>> 96a7037de4e202b92218a2da995db417bd001312
 
 function App() {
   return (
@@ -28,6 +32,7 @@ function App() {
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/login' element={<LoginSignup/>}/>
       </Routes>
+      <Footer/>
       </BrowserRouter>
     </div>
   );
