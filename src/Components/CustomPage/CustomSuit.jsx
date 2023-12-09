@@ -1,12 +1,10 @@
 // CustomSuit.jsx
 
-import React, { useState } from 'react';
-import { Link, Routes, Route } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import Shoo from '../../Pages/ShooesPages/Shoo';
-//import ShirtCustom from '../../Pages/ShirtPages/ShirtCustom';
 import dShooes from '../Assets/3dShooes.jpeg';
 import dShirt from '../Assets/3dTshirtHero.jpeg';
-import Cart from '../../Pages/Cart';
 
 const Card = ({ image, cardId }) => (
   <Link to={`/custom/card${cardId}`} style={{ textDecoration: 'none' }}>
@@ -37,10 +35,6 @@ const CustomSuit = () => {
         <Card image={dShooes} cardId={1} />
         <Card image={dShirt} cardId={2} />
       </div>
-      <Routes>
-        <Route path="card1" element={<Cart/>} />
-        <Route path="card2" element={<Shoo />} />
-      </Routes>
     </div>
   );
 };
