@@ -3,8 +3,36 @@
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
+<<<<<<< HEAD
 }
 
+=======
+    /* background-color: #171717; */
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hub {
+    display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+.hub span:nth-child(2) {
+    background: #84b76f;
+    color: #000000;
+    border-radius: 1vw;
+    padding: 0 1vw 1vw 1vw;
+    display: inline-block;
+}
+
+
+>>>>>>> bd38917 (making responsive to homepage)
 .nav-logo{
     display: flex;
     align-items: center;
@@ -16,7 +44,17 @@
     font-size: 38px;
     font-weight:600;
 }
+<<<<<<< HEAD
 
+=======
+#shop{
+    color: white;
+}
+#hub{
+    color: yellow;
+    background-color: #ff7141;
+}
+>>>>>>> bd38917 (making responsive to homepage)
 .nav-menu{
     display: flex;
     align-items: center;

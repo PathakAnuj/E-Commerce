@@ -9,15 +9,29 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
+<<<<<<< HEAD
         <div className="nav-logo">
             <img src={logo} alt="" />
             <p>SHOPPER</p>
         </div>
+=======
+    <div className="nav-logo">
+        <div class="hub">
+            <span contenteditable="true">Shop</span>
+            <span contenteditable="true">Hub</span>
+        </div>
+    </div>
+>>>>>>> bd38917 (making responsive to homepage)
         <ul className="nav-menu">
             <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration: 'none'}} to='/'>Shop</Link>  {menu==="shop"?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu("men")}}><Link style={{textDecoration: 'none'}} to='/mens'>Men</Link> {menu==="men"?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu("women")}}><Link style={{textDecoration: 'none'}} to='/women'>Women</Link>  {menu==="women"?<hr/>:<></>}</li>
+<<<<<<< HEAD
             <li onClick={()=>{setMenu("kids")}}><Link style={{textDecoration: 'none'}} to='/kids'>Kids</Link>  {menu==="kids"?<hr/>:<></>}</li>
+=======
+            <li onClick={()=>{setMenu("kid")}}><Link style={{textDecoration: 'none'}} to='/kid'>Kids</Link>  {menu==="kid"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("custom")}}><Link style={{textDecoration: 'none'}} to='/custom'>Custom Suite</Link>  {menu==="custom"?<hr/>:<></>}</li>
+>>>>>>> bd38917 (making responsive to homepage)
         </ul>
         <div className="nav-login-cart">
            <Link style={{textDecoration: 'none'}} to={'/login'}><button>Login</button></Link> 

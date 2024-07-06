@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 *{
   margin: 0;
 }
+=======
+>>>>>>> bd38917 (making responsive to homepage)
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -8,7 +11,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
   font-family: 'poppins';
+=======
+>>>>>>> bd38917 (making responsive to homepage)
 }
 
 code {
