@@ -11,8 +11,8 @@ const Navbar = () => {
     <div className='navbar'>
     <div className="nav-logo">
         <div class="hub">
-            <span contenteditable="true">Shop</span>
-            <span contenteditable="true">Hub</span>
+            <span contenteditable="true">E-Kart</span>
+{/*             <span contenteditable="true">Hub</span> */}
         </div>
     </div>
         <ul className="nav-menu">
