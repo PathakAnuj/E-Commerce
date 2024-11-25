@@ -19,7 +19,7 @@
   border-radius: 13px;
   box-shadow: 20px 40px 33px rgba(0,0,0,0.3);
   padding: 2rem;
-  width: 35vw;
+  width: 40vw;
   background-color:  #6cc2ce;
 
 }
@@ -30,13 +30,14 @@
   background:white;
   box-shadow:  10px 15px 15px 6px #3891b4;
   border-radius: 0px;
-  margin-bottom:20px
+  margin-bottom:10px
 
 }
 
 .colors {
 display:flex;
 flex-direction:row;
+margin-left: 50px;
 }
 
-.colors div {padding:8px;}
+.colors div {padding:10px;}

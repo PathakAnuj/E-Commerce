@@ -2,6 +2,7 @@ import './index.css';
 import {Suspense, useRef,useState} from 'react'
 import { Canvas} from '@react-three/fiber'
 import {OrbitControls, useGLTF} from '@react-three/drei'
+import { m } from 'framer-motion';
 
 function Model({ ...props }) {
   const group = useRef()
@@ -47,7 +48,7 @@ function Shoo() {
                       </Suspense>
                    </Canvas>
                 </div>
-                <h2>Color chooser</h2>
+                <h2 style={{marginBottom:"1rem"}}>Color chooser</h2>
                 <div className='colors'>
                     <div>
                         <input type="color" id="mesh" name="mesh"
